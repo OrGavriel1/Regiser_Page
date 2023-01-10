@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body style="direction: rtl;">
+    <div class="main">
+      <label for="file">
+        <input type="file" id="file" accept="image/*" style="display: none;" />
+        <img
+          src="https://media.istockphoto.com/id/1127154925/vector/user-icon-in-trendy-flat-style-isolated-on-blue-round-background-user-symbol-for-your-web.jpg?s=612x612&w=0&k=20&c=O-hG1C8u3LyUh3myYC46pbGdjnfFGWGow60ZwN3RxEk="
+          alt="image"
+          id="image"
+        />
+      </label>
+      <div class="title">
+        <h1>
+          <hr />
+          צור חשבון חדש
+          <hr />
+        </h1>
+      </div>
+      <!-- inputs -->
+      <form id="form" onsubmit="return false;">
+        <div">
+        <div class="name">
+          <input id="fNameInput" class="fName" placeholder="שם פרטי" required />
+          <input
+            id="lNameInput"
+            class="lName"
+            placeholder="שם משפחה"
+            required
+          />
+        </div>
+        <div class="city">
+          <input
+            type="text"
+            name="example"
+            list="city"
+            id="cityId"
+            autocomplete="off"
+            placeholder="עיר"
+            required
+          />
+          <datalist id="city"> </datalist>
+
+          <input
+            type="text"
+            name="example"
+            list="street"
+            id="streetId"
+            autocomplete="off"
+            placeholder="רחוב"
+            required
+          />
+          <datalist id="street"> </datalist>
+        </div>
+
+        <div class="phone">
+          <input
+            id="phoneInput"
+            maxlength="10"
+            placeholder="מס' טלפון"
+            required
+          />
+        </div>
+        <div class="mail">
+          <input id="emailInput" placeholder="אימייל" required />
+        </div>
+        <div class="password">
+          <input
+            type="password"
+            id="passwordInput"
+            placeholder="סיסמא"
+            required
+          />
+          <i id="visabilityBtn">
+            <span id="icon" class="material-symbols-outlined">
+              visibility
+            </span>
+          </i>
+        </div>
+        <div class="password2">
+          <input
+            type="password"
+            id="password2Input"
+            placeholder="אימות סיסמא"
+            required
+          />
+          <i id="visabilityBtn2">
+            <span id="icon2" class="material-symbols-outlined">
+              visibility
+            </span>
+          </i>
+        </div>
+
+        <p id="notCorrect">סיסמא לא נכונה</p>
+        <!-- <div class="submit">
+            <button type="submit" onclick="checkForm() id= "submit"> 
+              הירשם
+            </button>
+          </div> -->
+
+        <div class="submit">
+          <input
+            type="submit"
+            value="הירשם"
+            id="submit"
+            onclick="checkForm()"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="cities.js"></script>
+    <script src="register.js"></script>
+    <script src="street.js"></script>
+  </body>
+</html>

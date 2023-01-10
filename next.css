@@ -1,0 +1,90 @@
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+h1 {
+  color: rgb(64, 64, 252);
+  text-align: center;
+}
+.title hr {
+  display: inline-block;
+  border-top: 5px solid rgb(214, 214, 214);
+  width: 20px;
+  margin: 5px 15px;
+}
+/* main{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+} */
+p {
+  font-size: 22px;
+}
+
+.fname {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+
+  width: 45%;
+  margin: auto;
+}
+
+.lname {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
+
+.street {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
+.password {
+  display: flex;
+  justify-content: center;
+  border: 5px solid rgb(214, 214, 214);
+  border-radius: 20px;
+  width: 45%;
+  margin: auto;
+}
